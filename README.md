@@ -1,1 +1,12 @@
 # design-pattern-java-example
+
+Design pattern examples for my own study
+
+## What is design patterns
+
+## Types of design patterns
+
+##Sources
+[Book] Head First Design Patterns: A Brain-Friendly Guide: Building Extensible and Maintainable Object-Oriented Software
+By Eric Freeman & Elisabeth Robson
+
