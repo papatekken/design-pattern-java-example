@@ -1,5 +1,5 @@
 # design-pattern-java-example-easy-understand
-Try to build a collection of Design pattern examples in Java, involved few cases per pattern to make sure the concept can be easily understood.
+Try to build a collection of Design pattern examples in Java, preparing few examples for each pattern to help myself understand the concept more.
 
 ## What is design patterns
 Software design pattern is a reuseable solution for common occuring problems. So that you dont have to reinvent the wheel everytime. 
