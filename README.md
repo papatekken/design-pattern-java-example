@@ -1,4 +1,4 @@
-# design-pattern-java-example-easy-understand
+# design-pattern-java-examples-easy-understand
 Try to build a collection of Design pattern examples in Java, preparing few examples for each pattern to help myself understand the concept more.
 
 ## What is design patterns
@@ -13,7 +13,7 @@ The design patterns are usually categorized into 3  sub-classifications, based o
 ### Behavioral
 
 
-##Sources
+## Sources
 [Book] Head First Design Patterns: A Brain-Friendly Guide: Building Extensible and Maintainable Object-Oriented Software
 By Eric Freeman & Elisabeth Robson
 
