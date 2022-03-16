@@ -1,3 +1,3 @@
 public interface IHealthPlan {
-    public int execute(String name, int healthy);
+    int execute(String name, int health);
 }

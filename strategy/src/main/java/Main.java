@@ -1,14 +1,18 @@
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
 
         //Strategy Design Pattern example
         //Alex, Betty and Clark want to get healthier, and each of them have different strategy for that.
 
-        //Alex like jogging once per week, he always sleeps at regular time and do meditation every day.
-        //Betty like to work out in gym once per week and eat cook healthy food by herself
-        //Clark like to work out in gym and stay away from technology once per week, and jogging every day.
+        //Alex like to jog every day.
+        //Betty like to work out in gym every day.
+        //Clark like to swim every day.
+
+        //On every 7th days,
+        //Alex go swimming, Betty go jogging and Clark go to gym
+
 
         int day = 1;
         Person[] people = new Person[3];
@@ -18,31 +22,26 @@ public class Main {
 
 
         System.out.println("\n*** Start of plan ***");
-        while(!isEveryoneHealthy(people)){
+        while (!isEveryoneHealthy(people)) {
 
-            System.out.println("\nDay " +day);
+            System.out.println("\nDay " + day);
             showEveryoneHealth(people);
-            if(day%7==0){
-                people[0].setHealthPlan(new SleepRegularPlan());
-                people[0].doHeahlthPlan();
-                people[0].setHealthPlan(new MeditationPlan());
-                people[0].doHeahlthPlan();
-                people[1].setHealthPlan(new GymPlan());
-                people[1].doHeahlthPlan();
+            if (day % 7 == 0) {
+                people[0].setHealthPlan(new SwimPlan());
+                people[0].doExercise();
+                people[1].setHealthPlan(new JogPlan());
+                people[1].doExercise();
                 people[2].setHealthPlan(new GymPlan());
-                people[2].doHeahlthPlan();
-                people[2].setHealthPlan(new TechnologyBreakOut());
-                people[2].doHeahlthPlan();
+                people[2].doExercise();
             }
 
-            people[0].setHealthPlan(new JoggingPlan());
-            people[0].doHeahlthPlan();
+            people[0].setHealthPlan(new JogPlan());
+            people[0].doExercise();
             people[1].setHealthPlan(new GymPlan());
-            people[1].doHeahlthPlan();
-            people[2].setHealthPlan(new GymPlan());
-            people[2].doHeahlthPlan();
-            people[2].setHealthPlan(new TechnologyBreakOut());
-            people[2].doHeahlthPlan();
+            people[1].doExercise();
+            people[2].setHealthPlan(new SwimPlan());
+            people[2].doExercise();
+
             day++;
         }
 
@@ -52,16 +51,17 @@ public class Main {
 
     }
 
-    public static void showEveryoneHealth(Person[] people){
-        for(Person person:people){
+    public static void showEveryoneHealth(Person[] people) {
+        for (Person person : people) {
             person.showHealth();
         }
     }
-    public static boolean isEveryoneHealthy(Person[] people){
-        boolean outputAllHealthy= true;
-        for(Person person:people){
-            if(!person.isHealthy())
-                outputAllHealthy= false;
+
+    public static boolean isEveryoneHealthy(Person[] people) {
+        boolean outputAllHealthy = true;
+        for (Person person : people) {
+            if (!person.isHealthy())
+                outputAllHealthy = false;
         }
         return outputAllHealthy;
     }
