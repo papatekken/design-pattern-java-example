@@ -1,6 +1,6 @@
 # Adapter pattern
 
-- Structural design pattern
+- **Structural** design pattern
 - when client and service interfaces are different, adapter class can conntect between them without modify the original classes
 
 ## example 1
