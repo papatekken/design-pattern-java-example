@@ -24,4 +24,5 @@ By Eric Freeman & Elisabeth Robson
 By Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides (The Gangs of Four)
 
 [web] https://en.wikipedia.org/wiki/Software_design_pattern
+
 [web] https://refactoring.guru/design-patterns/
