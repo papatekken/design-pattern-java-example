@@ -1,4 +1,4 @@
-# design-pattern-java-examples-easy-understand
+# design-pattern-java-examples-by-myself
 Try to build a collection of Design pattern examples in Java, I am going to prepare few examples for each pattern. With this process to help myself understand more about the concept.
 
 ## What is design patterns

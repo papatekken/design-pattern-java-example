@@ -1,0 +1,124 @@
+*** Start of plan ***
+
+Day 1
+Alex's health:5
+Betty's health:5
+Clark's health:5
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+Day 2
+Alex's health:8
+Betty's health:10
+Clark's health:9
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+Day 3
+Alex's health:11
+Betty's health:15
+Clark's health:13
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+Day 4
+Alex's health:14
+Betty's health:20
+Clark's health:17
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+Day 5
+Alex's health:17
+Betty's health:25
+Clark's health:21
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+Day 6
+Alex's health:20
+Betty's health:30
+Clark's health:25
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+Day 7
+Alex's health:23
+Betty's health:35
+Clark's health:29
+Alex swims.
+Betty jogs
+Clark works out in gym
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+Day 8
+Alex's health:30
+Betty's health:43
+Clark's health:38
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+Day 9
+Alex's health:33
+Betty's health:48
+Clark's health:42
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+Day 10
+Alex's health:36
+Betty's health:53
+Clark's health:46
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+Day 11
+Alex's health:39
+Betty's health:58
+Clark's health:50
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+Day 12
+Alex's health:42
+Betty's health:63
+Clark's health:54
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+Day 13
+Alex's health:45
+Betty's health:68
+Clark's health:58
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+Day 14
+Alex's health:48
+Betty's health:73
+Clark's health:62
+Alex swims.
+Betty jogs
+Clark works out in gym
+Alex jogs
+Betty works out in gym
+Clark swims.
+
+*** End of plan ***
+Alex's health:55
+Betty's health:81
+Clark's health:71

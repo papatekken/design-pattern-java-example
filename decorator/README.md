@@ -1,11 +1,8 @@
-# Adapter pattern
+# Decorator pattern
 
 - **Structural** design pattern
-- when client and service interfaces are different, adapter class can conntect between them without modify the original classes
+- Attach new behaviors to objects by placing these objects inside special wrapper objects(decorator) that contain the behaviors.
 
 ## example 1
 
-In James Cameron movie "Avatar", there is a planet named Pandora.
-The planet is inhabited by the Na'vi, a naive alien tribe.
-Human cannot interact with them directly, but throught the Avatar, a genetically engineered body which remotely controlled by human.
-
+In RPG games, character abilities are enhanced by equipped different items.
