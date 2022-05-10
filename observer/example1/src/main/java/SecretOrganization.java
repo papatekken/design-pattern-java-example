@@ -1,7 +1,12 @@
 public class SecretOrganization {
-    String name  ="";
-
-    CreateMission(){
-
+    public String name  ="";
+    public Spy[] agents;
+    public SecretOrganization(String name){
+        this.name =name;
     }
+
+    public void join(){}
+
+
+
 }
