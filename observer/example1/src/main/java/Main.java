@@ -7,5 +7,8 @@ public class Main {
             kingsman.join( galahad);
             kingsman.join( percival);
             kingsman.join( lancelot);
+            kingsman.notifyMission(new Mission("Investigate THE PLAN","Investigate the plan of the criminal mastermind"));
+            kingsman.terminate( lancelot);
+            kingsman.notifyMission(new Mission("Stop THE PLAN","Stop the plan and save the world"));
     }
 }

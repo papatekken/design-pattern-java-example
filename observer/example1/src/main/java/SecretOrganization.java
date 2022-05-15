@@ -3,7 +3,7 @@ import java.util.HashSet;
 
 public class SecretOrganization {
     public String name  ="";
-    public HashSet<Spy> agents;
+    public HashSet<Spy> agents = new HashSet<Spy>();;
     public SecretOrganization(String name){
         this.name =name;
     }
