@@ -12,9 +12,17 @@ public class SecretOrganization {
         agents.add(agent);
     }
 
+    public void terminate(Spy agent){
+        agents.remove(agent);
+    }
 
-    public void terminate(Spy agent){}
-    public Mission createMission(){ return null;}
-    public void sendMission(){}
+    public Mission createMission(String name, String objective){
+        return new Mission(name, objective);
+    }
+
+    public void notifyMission(Mission mission){
+        for(Spy spy:agents)
+            spy.receive(mission);
+    }
 
 }

@@ -6,4 +6,11 @@ public class Mission {
         this.name = name;
         this.objective = objective;
     }
+
+    public String getName(){
+        return this.name;
+    }
+    public String getObjective(){
+        return this.objective;
+    }
 }
