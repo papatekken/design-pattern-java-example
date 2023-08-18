@@ -17,12 +17,12 @@ The design patterns are usually categorized into 3  sub-classifications, based o
 
 
 ## Sources
-[Book] Head First Design Patterns: A Brain-Friendly Guide: Building Extensible and Maintainable Object-Oriented Software
+:books: Head First Design Patterns: A Brain-Friendly Guide: Building Extensible and Maintainable Object-Oriented Software
 By Eric Freeman & Elisabeth Robson
 
-[Book] Design Patterns: Elements of Reusable Object-Oriented Software 
+:books: Design Patterns: Elements of Reusable Object-Oriented Software 
 By Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides (The Gangs of Four)
 
-[web] https://en.wikipedia.org/wiki/Software_design_pattern
+:computer: https://en.wikipedia.org/wiki/Software_design_pattern
 
-[web] https://refactoring.guru/design-patterns/
+:computer: https://refactoring.guru/design-patterns/
